@@ -1,0 +1,7 @@
+[project]
+name = "la-colmena-5-0"
+version = "0.1.0"
+dependencies = ["crewai", "langchain-groq"]
+
+[tool.crewai]
+type = "crew"
