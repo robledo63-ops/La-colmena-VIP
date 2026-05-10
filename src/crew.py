@@ -5,8 +5,10 @@ from langchain_groq import ChatGroq
 
 @CrewBase
 class ColvenaVipCrew():
-    # USAR RUTAS RELATIVAS SIMPLES
-    # Esto evita que el sistema busque 'src/config/config'
+    """Crew de Consultoría VIP"""
+
+    # Forzamos la ruta para que no busque 'src/config/config'
+    # Al usar './', le decimos que busque en la carpeta config que tiene al lado
     agents_config = 'config/agents.yaml'
     tasks_config = 'config/tasks.yaml'
 
