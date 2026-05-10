@@ -1,0 +1,6 @@
+tarea_guia_whatsapp:
+  description: >
+    Crear una guía técnica detallada para conectar WhatsApp con n8n.
+  expected_output: >
+    Un documento con 5 pasos técnicos claros y precisos.
+  agent: consultor
