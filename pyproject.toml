@@ -1,6 +1,8 @@
 [project]
-name = "la-colmena-5-0"
+name = "colvena-vip"
 version = "0.1.0"
+description = "Consultoria VIP Bajakey"
+authors = [{name = "Francisco Robledo"}]
 dependencies = ["crewai", "langchain-groq"]
 
 [tool.crewai]
